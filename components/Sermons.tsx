@@ -14,12 +14,12 @@ const Sermons = () => {
                 <p className='text-gray-500 text-xl'>Sunday 23rd March 2023,08:00 AM - 11:00 AM</p>
                 <p className='text-gray-500 text-xl'>Preacher: Pst John Ball</p>
                 <ul className='text-white/60 text-xl flex flex-col gap-6'>
-                    <li>🔥 Don't divorce unless wife/husband is an unbeliever</li>
-                    <li>🔥 Don't divorce unless wife/husband is an unbeliever</li>
-                    <li>🔥 Don't divorce unless wife/husband is an unbeliever</li>
-                    <li className='text-white/50'>🔥 Don't divorce unless wife/husband is an unbeliever</li>
-                    <li className='text-white/30'>🔥 Don't divorce unless wife/husband is an unbeliever</li>
-                    <li className='text-white/10'>🔥 Don't divorce unless wife/husband is an unbeliever</li>
+                    <li>🔥 Don&apos;t divorce unless wife/husband is an unbeliever</li>
+                    <li>🔥 Don&apos;t divorce unless wife/husband is an unbeliever</li>
+                    <li>🔥 Don&apos;t divorce unless wife/husband is an unbeliever</li>
+                    <li className='text-white/50'>🔥 Don&apos;t divorce unless wife/husband is an unbeliever</li>
+                    <li className='text-white/30'>🔥 Don&apos;t divorce unless wife/husband is an unbeliever</li>
+                    <li className='text-white/10'>🔥 Don&apos;t divorce unless wife/husband is an unbeliever</li>
                 </ul>
                 <div className='flex flex-row mt-4 gap-5 items-center'>
                     <Image src={'/facebook.png'} alt='facebook' width={60} height={60}/>

@@ -29,7 +29,7 @@ const BibleVerse = () => {
             So our men will help your men with the work. 
             And I will pay your workers whatever you decide 
             is right.’ 
-            7Hiram was very happy when he received Solomon's 
+            7Hiram was very happy when he received Solomon&apos;s 
             message. He said, ‘Praise the Lord today, 
             because he gave David a wise son to rule over 
             the great nation, Israel.’ 8Then 

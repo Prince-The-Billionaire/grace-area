@@ -2,7 +2,7 @@
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import React, { useEffect, useRef, useState } from 'react'
-import { setInterval } from 'timers/promises'
+
 
 gsap.registerPlugin(ScrollTrigger);
 const Hero = () =>{
