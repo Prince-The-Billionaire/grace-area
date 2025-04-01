@@ -22,7 +22,7 @@ const Hero = () =>{
             }
         })
         gsap.to(orangebarRef.current,{
-            width: 700,
+            width: window.innerWidth > 1000 ? 700 : 200,
             duration: 2,
             ease:"power2.out",
             delay: 1,
@@ -44,18 +44,18 @@ const Hero = () =>{
     },[])
   return (
     <div className='flex relative -mt-28'>
-        <img src='/hero.jpg ' className='w-[100vw] z-0 absolute '/>
-        <div ref={maindivRef} className='z-20 p-16 opacity-0 -ml-10'>
-            <h1 className='mt-32 text-9xl font-bold text-white'>Welcome to <br/> Grace Area</h1>
+        <img src='/hero.jpg ' className='w-[100vw] max-md:h-[100vh] object-cover z-0 absolute '/>
+        <div ref={maindivRef} className='z-20 p-16 opacity-0 max-md:p-2 md:-ml-20 -ml-10'>
+            <h1 className='mt-32 md:mt-12 max-md:text-2xl md:text-5xl text-9xl font-bold text-white'>Welcome to <br/> Grace Area</h1>
             <div ref={orangebarRef} className='h-2 w-[2rem] bg-green-600'/>
-            <p className='text-3xl text-white/85'>RCCG Province 12 </p>
+            <p className='text-3xl md:text-xl max-md:text-base text-white/85'>RCCG Province 12 </p>
             <p className='mt-4 text-white/90'>Jesus Christ the same yesterday, and today, and forever.</p>
             <p className='text-white/90'>-Hebrews 13:8-</p>
-            <div className='flex flex-row gap-8 text-2xl text-white'>
+            <div className='flex flex-row gap-8 max-md:text-xs md:text-lg text-2xl text-white'>
                 <p>Over <span ref={countRef}>{count}</span> members</p>
                 <p>Different department</p>
             </div>
-            <div className='flex flex-row gap-16 mt-8'>
+            <div className='max-md:gap-2 flex flex-row gap-16 mt-8 md:mt-2'>
                 <button className='text-white text-xl hover:bg-green-400 cursor-pointer  bg-green-500 rounded-2xl p-2 px-4 '>
                     Get to Us
                 </button>

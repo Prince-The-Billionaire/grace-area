@@ -3,14 +3,14 @@ import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa6'
 
 const BibleVerse = () => {
   return (
-    <div className='relative mt-36 min-h-screen flex flex-col items-center justify-center'>
-        <div className='p-6 mx-10 w-fit gap-16 flex justify-evenly flex-row bg-white rounded-2xl backdrop-blur-md shadow-black/30 shadow-sm  '>
+    <div className='relative  md:p-2 max-md:mt-12 max-md:p-4 mt-36 min-h-screen flex flex-col items-center justify-center'>
+        <div className='p-6 md:p-2 max-md:p-2 mx-10 w-fit gap-16 flex justify-evenly flex-row max-md:flex-col bg-white rounded-2xl backdrop-blur-md shadow-black/30 shadow-sm  '>
            <div className='flex flex-col justify-between'>
                 <div className=''> 
-                    <p className='text-3xl'> Bible Verse of the Week</p>
-                    <p className='text-2xl'>1 Kings 5:4</p>
+                    <p className='text-3xl  md:text-2xl max-md:text-lg'> Bible Verse of the Week</p>
+                    <p className='text-2xl md:text-xl max-md:text-base'>1 Kings 5:4</p>
                 </div>
-                <div className='flex flex-row gap-6'>
+                <div className='flex max-md:text-xs flex-row max-md:gap-2 gap-6 md:gap-2'>
                     <p className='p-2 rounded-2xl border-2 w-fit border-green-400/15 bg-green-400/15 inset-shadow-white shadow-md backdrop-blur-md '>#protection</p>
                     <p className='p-2 rounded-2xl border-2 w-fit border-green-400/15 bg-green-400/15 inset-shadow-white shadow-md backdrop-blur-md'>#protection</p>
                     <p className='p-2 rounded-2xl border-2 w-fit border-green-400/15 bg-green-400/15 inset-shadow-white shadow-md backdrop-blur-md'>#protection</p>
@@ -18,7 +18,7 @@ const BibleVerse = () => {
            </div>
            <div>
            <FaQuoteLeft color='green' size={24} />
-           <p className='text-wrap text-black/50  overflow-y-scroll text-xl h-[32rem] w-[32rem]'>
+           <p className='text-wrap text-black/50  overflow-y-scroll md:text-base text-xl max-md:w-[16rem] md:w-[20rem] h-[32rem] w-[32rem]'>
             But now the Lord my God has made us safe from danger. No enemy tries to attack us on any of our borders.
             So I have decided to build a temple to give honour to the Lord my God. 
             The Lord said to my father David, “I will put your son on your throne to rule as king after you. 

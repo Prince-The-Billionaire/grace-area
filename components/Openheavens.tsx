@@ -8,11 +8,11 @@ const Openheavens = () => {
         setMode((prev) => !prev)
     }
   return (
-    <div className='flex flex-row gap-6 justify-center items-start'>
-        <div className="bg-white flex flex-col items-center rounded-2xl shadow shadow-black/30 p-16  mt-12">
-            <Image src={'/openheavens.jpg'} alt='openheavens' width={600} height={500}/>
-            <h1 className='font-black text-xl mt-10 self-start'>Title: The Great Physician</h1>
-            <p className='w-[32rem] text-wrap mt-6 self-start'>
+    <div className='flex max-md:flex-col max-md:px-4 flex-row md:px-4 gap-6 md:gap-2 justify-center items-start'>
+        <div className="bg-white flex flex-col items-center rounded-2xl shadow shadow-black/30 p-16 max-md:p-2  md:p-8 mt-12">
+            <Image src={'/openheavens.jpg'} alt='openheavens' width={400} height={500}/>
+            <h1 className='font-black text-xl max-md:text-base mt-10 self-start'>Title: The Great Physician</h1>
+            <p className='w-[32rem] max-md:w-[12rem] md:w-[20rem] text-wrap mt-6 self-start'>
             God is the Great Physician. 
             In Exodus 15:26, He said, 
             “…I am the Lord that healeth thee.” 
@@ -57,13 +57,13 @@ const Openheavens = () => {
         </div>
         <div className='flex flex-col '>
             <div className="bg-white flex flex-col  rounded-2xl shadow shadow-black/30 p-4 mt-12">
-                <h1 className='text-black/75 text-xl w-[24rem] self-start'><span className='font-black'>MEMORY VERSE: </span> 
+                <h1 className='text-black/75 md:text-lg max-md:w-[16rem] text-xl max-md:text-base md:w-[16rem] w-[24rem] self-start'><span className='font-black'>MEMORY VERSE: </span> 
                     “Who forgiveth all thine iniquities; 
                     who healeth all thy diseases;” – Psalm 103:3 (KJV)</h1>   
             </div>
 
             <div className="bg-white flex flex-col  rounded-2xl shadow shadow-black/30 p-4 mt-2">
-                <h1 className='text-black/50 text-xl w-[24rem] self-start'><span className='font-black text-black/75'>BIBLE READING: Luke 4:37-40 (KJV) </span>  
+                <h1 className='text-black/50 text-xl md:text-lg md:w-[16rem] max-md:w-[16rem] w-[24rem] self-start'><span className='font-black text-black/75'>BIBLE READING: Luke 4:37-40 (KJV) </span>  
                     <br/>“37  And the fame of him went out into every 
                     place of the country round about.<br/><br/>
                     38  And he arose out of the synagogue, 
@@ -84,17 +84,17 @@ const Openheavens = () => {
                 </h1>   
             </div>
             <div className="bg-white flex flex-col  rounded-2xl shadow shadow-black/30 p-4 mt-2">
-                <h1 className='text-black/45'>BIBLE IN ONE YEAR: 1 Samuel 13-14</h1>
+                <h1 className='md:w-[16rem] max-md:w-[16rem] text-black/45'>BIBLE IN ONE YEAR: 1 Samuel 13-14</h1>
             </div>
 
             <div className="bg-white flex flex-col  rounded-2xl shadow shadow-black/30 p-4 mt-2">
                 <p className='font-black '>Key Point</p>
-                <h1 className='text-black/45 w-[24rem]'>Everything may fail and change, 
+                <h1 className='text-black/45 md:w-[16rem] max-md:w-[16rem] w-[24rem]'>Everything may fail and change, 
                     but God’s principles and steadfast 
                     love stand sure.</h1>
             </div>
             
-            <div className='flex flex-row gap-6'>
+            <div className='flex flex-row gap-6 md:gap-2 max-md:flex-col'>
                 <div className="bg-white flex flex-col items-center  rounded-2xl shadow shadow-black/30 p-4 mt-2">
                     <p className='font-black '>Hymns</p>
                     <Image src={'/unnamed.jpg'} alt='music' width={140} height={140} />
@@ -105,7 +105,7 @@ const Openheavens = () => {
                 </div>
                 <div className="bg-white  flex flex-col items-center  rounded-2xl shadow shadow-black/30 p-4 mt-2">
                 <p className='font-black '>Lyrics</p>
-                <h1 className='text-black/45 w-[12rem]'>Everything may fail and change, 
+                <h1 className='text-black/45 md:text-sm md:w-[8rem] w-[12rem]'>Everything may fail and change, 
                     but God’s principles and steadfast 
                     love stand sure.</h1>
                 </div>
