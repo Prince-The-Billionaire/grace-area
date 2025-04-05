@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 
 const Sermons = () => {
-    let magic = window.innerWidth > 1000 ? 50 : window.innerWidth > 600 && window.innerWidth < 99 ? 50 :30
+    const magic = window.innerWidth > 1000 ? 50 : window.innerWidth > 600 && window.innerWidth < 99 ? 50 :30
   return (
     <div className='mt-12 max-md:mb-20 md:mb-20 min-h-screen flex max-md:px-2 px-42 md:px-4 flex-col'>
         <h1 className='text-3xl'>
