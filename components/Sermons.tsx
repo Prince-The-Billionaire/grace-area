@@ -1,10 +1,15 @@
 "use client"
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Sermons = () => {
-    const width = window.innerWidth;
-    const magic = width > 600 ? 50 : 30;
+    const [magic, setMagic] = useState(30); // default to 30 on server
+
+    useEffect(() => {
+      const width = window.innerWidth;
+      const magicValue = width > 600 ? 50 : 30;
+      setMagic(magicValue);
+    }, []);
   return (
     <div className='mt-12 max-md:mb-20 md:mb-20 min-h-screen flex max-md:px-2 px-42 md:px-4 flex-col'>
         <h1 className='text-3xl'>
